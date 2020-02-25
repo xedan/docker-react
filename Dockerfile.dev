@@ -1,0 +1,15 @@
+#base image
+FROM node:alpine
+#working dir
+WORKDIR '/app'
+
+# copy json file only
+COPY package.json .
+
+#do install and then copy all other files
+RUN npm install
+
+COPY . .
+
+#default command
+CMD ["npm", "run", "start"]
