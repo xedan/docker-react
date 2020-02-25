@@ -1,0 +1,13 @@
+# hey travis we need sudo for executing this build
+sudo: required
+services:
+  - docker  #automatically install a copy of docker inside the container
+
+before_install:
+  - docker build -t xedan/docker-react -f Dockerfile.dev . #before test run we want to build our docker image
+  # the tag -t is only using internally therefore not necessary to use -t xedan/docker-react
+
+script:
+  # the script assumes to be exited by default, we need to have a workaround for automatically exit
+  - docker run xedan/docker-react npm run test -- --coverage
+  -
