@@ -9,5 +9,4 @@ before_install:
 
 script:
   # the script assumes to be exited by default, we need to have a workaround for automatically exit
-  - docker run xedan/docker-react npm run test -- --coverage
-  -
+  - docker run -e CI=true xedan/docker-react npm run test
