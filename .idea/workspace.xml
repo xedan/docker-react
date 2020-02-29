@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e07766b8-f20d-402d-813c-3914cadf4ed6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,5 +39,11 @@
       <updated>1582324607055</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="563" y="530" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582977559548">
+      <screen x="0" y="23" width="1920" height="1133" />
+    </state>
+    <state x="563" y="530" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1920.1133@0.23.1920.1133" timestamp="1582977559548" />
   </component>
 </project>
